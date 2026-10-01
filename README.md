@@ -34,15 +34,18 @@ AI use in this code base:
 
     This readme is mostly hand typed except the MIT license which I copied and pasted from the generated MIT license directly. This is for liability purposes. 
     
-    The comments are hand written without AI. They probably go into more detail than needed. This is partially so I keep track of things and helps me if I take longer breaks. I'm also trying to handhold people a little bit if they're interested in what the code is doing and why.
+    The comments are hand written without AI. They probably go into more detail than needed. 
+    This is partially so I keep track of things and helps me if I take longer breaks. I'm also trying to handhold people a little bit if they're         interested in what the code is doing and why.
 
     The code was AI assisted to a degree through a local Jan chatbot.
     
     For more info on Jan: https://www.jan.ai/ 
-
-    I manually keep my version of Jan updated with updated code modules and updates to core languages I use to assist me better.
+   
+    When using Jan, human logic is intentionally put into the design choices. 
+    I don't blindly copy and paste anything without fully thinking it through before testing and publishing publicly. 
+    I run everything myself locally and try to run on multiple devices and OS patches when possible. 
     
-     When using Jan, human logic is intentionally put into the design choices. I don't blindly copy and paste anything without fully thinking it through before testing and publishing publicly. I run everything myself locally and try to run on multiple devices and OS patches when possible. Not every situation or device will be throughly tested and there will likely be some amount of friction and troubleshooting for others using this code.
+    Not every situation or device will be throughly tested and there will likely be some amount of friction and troubleshooting for anyone else       using this
 
 Warnings and misuse:
 
