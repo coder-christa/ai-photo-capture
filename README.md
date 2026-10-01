@@ -6,16 +6,17 @@ I'm building this project for end users to have a code base with open source gar
 
 What does this initial portion of code do?
 
-    This is a very simple photo capture tool. This feeds eventually into custom local models and used for other purposes in the overall ecosystem I am actively building and run in my home. This is a small part of a larger API service(application programming interface) and larger code base. 
+    This is a very simple photo capture tool. 
+    This feeds eventually into custom local models and used for other purposes in the overall ecosystem I am       actively building and run in my home. 
+    This is a small part of a larger API service(application programming interface) and larger code base. 
 
-    What's next in the future of this code base?
+What's next in the future of this code base?
 
     meta data tagging pipelines for captured photo sets 
     Cleansing and sorting algorithms 
     Feeding cleansed and tagged photo sets to various training models or used for more purposes and use cases
 
-    There are other parts around this that will be published/hosted through huggingface as I upload my personal photo sets and build out more for more general audiences outside of what I run at home. 
-
+    There are other parts around this that will be published/hosted through huggingface.
 
 Who I'm trying to gather as an audience?
 
