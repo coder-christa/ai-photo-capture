@@ -84,13 +84,18 @@ To take a one off photo run this on your CLI(command line interface/black box):
 
 Additional warnings:
     THERE IS NO WARNING IN THE CODE FOR WHEN A PHOTO WILL BE TAKEN. PROCEED WITH CAUTION.
-    For safety, always double check everything and/or put a cover over your camera when not in use. There are no warnings other than a light for a moment or two on some devices(this may vary). 
+    For safety, always double check everything and/or put a cover over your camera when not in use. 
+    There are no warnings other than a light for a moment or two on some devices(this may vary). 
 
-    Proceed at your own risk with giving permissions to your personal web cam, especially on a laptop or desktop. As mentioned there is a risk of photos being taken automatically without you realizing if you don't know what you are doing and why.
+    Proceed at your own risk with giving permissions to your personal web cam, especially on a laptop or desktop. 
+    There is a real risk of photos being taken automatically without you realizing especially if you don't know what you are doing and why.
 
-    This code base does not take automatic photos as is and only triggers manually. I am not including instructions for large photo dumps and scheduling to minimize accidental harm. For the intended usecases you have to schedule this workflow and point the camera at your plants to store multiple photos over time. 
+    This code base does not take automatic photos as is and only triggers manually. 
+    I am not including instructions for large photo dumps and scheduling to minimize accidental harm. 
+    For the intended uses you have to schedule this workflow and manage it on your own. 
 
-    Always look through this code base throughly before downloading and look up specifics if you aren't sure. Look into further details about your specific devices and OS behaviors before executing or scheduling this code. 
+    Always look through this code base throughly before downloading and look up specifics if you aren't sure. 
+    Look into further details about your specific devices and OS behaviors before executing or scheduling this code. 
 
 
 Included in this code base:
