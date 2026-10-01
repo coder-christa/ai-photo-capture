@@ -2,7 +2,7 @@ This project is licensed under the MIT License. See the License.txt for details.
 
 Summary:
 
-I'm building this project for end users to have a code base with open source gardening knowledge and tools for home gardening automation. This is also for general learning purposes. This is part one of many furture releases and updates. I plan to release more publicly in the future.
+I'm building this project for end users to have a code base with open source gardening knowledge and tools for home gardening automation. This is also for general learning purposes. This is part one of many furture releases and updates. I have not set schedule at the moment.
 
 What does this initial portion of code do?
 
