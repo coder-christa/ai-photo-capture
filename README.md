@@ -2,40 +2,53 @@ This project is licensed under the MIT License. See the License.txt for details.
 
 Summary:
 
-I'm building this project for end users to have a code base with open source gardening knowledge and tools for home gardening automation and general learning purposes. This is part one of many furture releases and updates. I plan to release more publicly as time goes on.
+I'm building this project for end users to have a code base with open source gardening knowledge and tools for home gardening automation. This is also for general learning purposes. This is part one of many furture releases and updates. I plan to release more publicly in the future.
 
 What does this initial portion of code do?
 
     This is a very simple photo capture tool. 
-    This feeds eventually into custom local models and used for other purposes in the overall ecosystem I am       actively building and run in my home. 
+    This feeds eventually into custom local models and used for other purposes in the future.
+    It feeds in the overall ecosystem I am actively building and running in my home. 
     This is a small part of a larger API service(application programming interface) and larger code base. 
 
 What's next in the future of this code base?
 
     meta data tagging pipelines for captured photo sets 
     Cleansing and sorting algorithms 
-    Feeding cleansed and tagged photo sets to various training models or used for more purposes and use cases
-
-    There are other parts around this that will be published/hosted through huggingface.
+    Feeding cleansed and tagged photo sets to various training models or used for more purposes and use cases.
+    Hugging face tie ins and other functions as I test and vet them.
 
 Who I'm trying to gather as an audience?
 
-    I'm intentionally writing this readme for learning purposes and minimizing tech jargon. I'm assuming a low level of baseline tech knowledge and experterise. Although that is a bold assumption posting this on git. If you found this repo through github you probably don't need a painful level of handholding, but this readme isn't for you but you probably aren't reading this and skipped to the technical specs and code.
+    I'm intentionally writing this readme and the code comments for learning purposes and minimizing tech jargon. 
+    I'm assuming a low level of baseline tech knowledge and experterise. 
+    Although that is a bold assumption posting this on git. 
+    If you found this repo through github you probably don't need a painful level of handholding, but this readme isn't for you but you probably      aren't reading this and skipped to the technical specs and code.
 
-    This overall project is for the fellow DIYers/gardeners that want to claw back some of their labor through personalized AI gardening tools without a large sticker shock and a pathway to make it customizable to their setup and plants they would like to grow.
+    This overall project is for the fellow DIYers/gardeners that want to claw back some of their labor.
+    The people that want personalized AI gardening tools without a large sticker price 
+    and a pathway to make it customizable to their setup and plants.
 
 What drives me to do all this?
 
-    If nothing else is achieved from this project, I hope to get a few people to think about what kind of society they want to live in. This is one small step towards re-building more equality and dignitity through knowledge sharing.
+    If nothing else is achieved from this project, I hope to get a few people to think about what kind of society they want to live in. 
+    This is one small step towards re-building more equality and dignitity through knowledge sharing.
 
-    This code base is one angle to chip away at the narrative that you must pay an endless subscription for common useful software while sacrificing your privacy. The perceived alternative is no access or limited access with creepy ads. Those statements are false if you look for the information. Reading this is a small step forward.
+    This code base is one angle to chip away at the narrative that 
+    you must pay an endless subscription for common useful software while sacrificing your privacy. 
+    The perceived alternative is no access or limited access with creepy ads. 
+    Those statements are false if you look for the information. 
+    Reading through this document is a small step forward.
 
 AI use in this code base:
 
-    This readme is mostly hand typed except the MIT license which I copied and pasted from the generated MIT license directly. This is for liability purposes. 
+    This readme is mostly hand typed except the MIT license which I copied and pasted from the generated MIT license directly. 
+    This is for liability purposes. 
     
-    The comments are hand written without AI. They probably go into more detail than needed. 
-    This is partially so I keep track of things and helps me if I take longer breaks. I'm also trying to handhold people a little bit if they're         interested in what the code is doing and why.
+    The comments are hand written without AI. 
+    They probably go into more detail than needed. 
+    This is partially so I keep track of things and it helps me if I take longer breaks. 
+    I'm also trying to handhold people if they're interested in what the code is doing and why.
 
     The code was AI assisted to a degree through a local Jan chatbot.
     
@@ -49,11 +62,13 @@ AI use in this code base:
 
 Warnings and misuse:
 
-    Please be careful and mindful of where a camera using this code is pointed. There are no warning shots or warnings displayed due to the intended use case. It is easily automated with the intention to take a massive number of photos for AI training purposes and capturing long periods of plant growth.
+Please be careful and mindful of where a camera using this code is pointed. There are no warning shots or warnings displayed due to the intended use case. It is easily automated with the intention to take a massive number of photos for AI training purposes and capturing long periods of plant growth.
     
-    Unflattering background objects can be captured unintentionally if not handled appropriately. Be mindful to unplug the camera or cover any webcam just in case and/or check the logs and find additional information if you aren't sure. Don't publish/fork this code base with your own photos publicly in the photos folder unless you are sure they are clean.
+Unflattering background objects can be captured unintentionally if not handled appropriately. Be mindful to unplug the camera or cover any webcam just in case and/or check the logs and find additional information if you aren't sure. Don't publish/fork this code base with your own photos publicly in the photos folder unless you are sure they are clean.
 
-    Do not knowingly use this for any malicious purposes, I am not liable for such actions. This is intented to be used on local personal devices for plant identiicaiton and learning purposes. I ultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole. 
+Do not knowingly use this for any malicious purposes, I am not liable for such actions. 
+This is intented to be used on local personal devices for plant identiicaiton and learning purposes. I
+ultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole. 
 
 Technical specs:
 
