@@ -6,7 +6,7 @@ I'm building this project for end users to have a code base with open source gar
 
 What does this initial portion of code do?
 
-    This is a very simple photo capture tool. 
+    This is a very simple photo capture tool. It's designed to run on a small raspberry Pi with a USB webcam.
     This feeds eventually into custom local models and used for other purposes in the future.
     It feeds in the overall ecosystem I am actively building and running in my home. 
     This is a small part of a larger API service(application programming interface) and larger code base. 
