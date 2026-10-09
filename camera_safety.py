@@ -56,7 +56,7 @@ class Camera_safety:
              if class_id == self.PERSON_CLASS_ID:
                 person_detected = True
                 
-                # MobileNet outputs normalized values (0.0 to 1.0), so scale them to your image size
+                # MobileNet outputs normalized values, scale them to your image size
                 bx, by, bw, bh = box
                 x1, y1 = bx, by
                 x2, y2 = bx + bw, by + bh
