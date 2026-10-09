@@ -7,9 +7,11 @@
 
 import cv2
 import time
+from pathlib import Path
 import threading
 import os
 import logging
+from camera_safety import Camera_safety
 
 logger = logging.getLogger(__name__)
 #initiate the class
@@ -18,7 +20,8 @@ class Camera:
         self.device_index = device_index
         self.camera = None
         self.lock = threading.Lock()
-
+        self.privacy = Camera_safety()
+        self.BASE_DIR = Path(__file__).resolve().parent
 #initiate the camera
     def init_camera(self):
         if self.camera is None:
@@ -50,7 +53,8 @@ class Camera:
                 if not ret:
                     raise RuntimeError("Failed to capture frame")
                 else:
-                    cv2.imwrite(f"{output_dir}/{filename}", frame)
+                    safety_frame = self.privacy.enforce_mobilenet_privacy_blur(frame)
+                    cv2.imwrite(f"{output_dir}/{filename}", safety_frame)
         finally:
             self.release()
 
