@@ -1,3 +1,6 @@
+#this class is for safety management 
+#other measures can be easily added with more def functions as needed. 
+
 import cv2
 import numpy as np
 import os
@@ -44,11 +47,11 @@ class Camera_safety:
             frame, 
             confThreshold=self.CONFIDENCE_THRESHOLD
         )
-
+        #this prevents a failure if nothing is in the photo's focus
         if len(class_ids) == 0:
             return frame
 
-# Loop directly through the objects list
+       # Loop through the objects list
         for class_id, confidence, box in zip(class_ids.flatten(), confidences.flatten(), boxes):
              if class_id == self.PERSON_CLASS_ID:
                 person_detected = True
