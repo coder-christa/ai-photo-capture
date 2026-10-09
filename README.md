@@ -70,7 +70,7 @@ Do not knowingly use this for any malicious purposes, I am not liable for such a
 This is intented to be used on local personal devices for plant identiicaiton and learning purposes. I
 ultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole.
 
-Update: For safety blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. Not perfect, but should minimize any unintentional harm. This was put in a separate class, more safety constraints can be added as needed. Still don't be an asshole.
+Update: For safety, blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. Not perfect, but should minimize any unintentional harm. This was put in a separate class, more safety constraints can be added as needed. Still don't be an asshole.
 
 Technical specs:
 
@@ -121,8 +121,14 @@ take_photos.py:
     This acts as the main entry point for photo triggering. This also handles logging, global variables, global calls and calls the camera management functions
 
 camera_management.py: 
-    takes the photos, stores the photos, handles warming up the camera, ensures a good photo can be taken, ensures the camera is ready to take a photo etc
+    class for handling camera hardware and the shutter functions.
+    Current functions: 
+    taking photos, storing photos, warming up the camera, ensuring a good photo can be taken, handling multi threaded photos 
 
+camera_safety:
+    class for handling safety functions and bluring
+    Currently blurs the photo if a human is detected in the photo
+    
 key sub directories in this code base:
 
 configs: 
@@ -131,6 +137,9 @@ configs:
 photos:
     default directory for photo dumps. file names have a unique timestamp to avoid overwriting previous photos. 
 
+ai_configs:
+    these are default standard files used by AI photo detection. They are available online and are binary files for the AI algorithms used in       the camera_safety.py class
+    
 logs: 
     logs files are placed here when the application is executed. Logs are currently append only with timestamps in each entry for troubleshooting. You may need to manually purge the log file if it becomes large or modify the code to manage it longer term. 
 
