@@ -70,7 +70,7 @@ Do not knowingly use this for any malicious purposes, I am not liable for such a
 This is intented to be used on local personal devices for plant identiicaiton and learning purposes. I
 ultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole.
 
-Update: For safety blur functionality was added to prevent humans being in the photos. It will blur them out automatically with a lightweight algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the cameras resolution. Not perfect, but should minimize any unintentional harm. This was put in a separate class so more safety constraints can be added. Still don't be an asshole.
+Update: For safety blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. Not perfect, but should minimize any unintentional harm. This was put in a separate class, more safety constraints can be added as needed. Still don't be an asshole.
 
 Technical specs:
 
