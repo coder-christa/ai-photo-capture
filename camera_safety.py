@@ -1,3 +1,7 @@
+#this class can be expanded to implement different camera constraints to avoid objects that shouldn't be captured
+#right now it blurs any humans in a photo
+#this will eventually be expanded upon to blur buildings or other background objects as the need arises
+
 import cv2
 import numpy as np
 import os
