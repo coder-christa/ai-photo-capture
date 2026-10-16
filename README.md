@@ -4,20 +4,56 @@ Summary:
 
 I'm building this project for end users to have a code base with open source gardening knowledge and tools for home gardening automation. This is also for general learning purposes. This is part one of many furture releases and updates. I have no set schedule at the moment.
 
-What does this initial portion of code do?
+What is the overall large picture?
 
-    This is a very simple photo capture tool. It's designed to run on a small raspberry Pi with a USB webcam.
-    This feeds eventually into custom local models and used for other purposes in the future.
-    It feeds in the overall ecosystem I am actively building and running in my home. 
-    This is a small part of a larger API service(application programming interface) and larger code base. 
+    I am building a fully customizable automated gardening tool set for others to use. 
+    The final product will be private, will work on your own devices/hardware, no internet required and customizable to each user. 
+    The idea overall idea is to train AI models on your specific pests, plant species, weeds, plant diseases etc. 
+    
+    
+    There will be future functions such as:
+    
+    Automated water management, 
+    automated soil testing, 
+    guidance for soil deficiencies and remediation  
+    pest management alerts when pests are detected, 
+    pest and disease management and mitigation, 
+    composting management
+    and many more ideas I have actively been thinking about. 
+    
+    Once this code base is further along, you won't need to wait for updates, you won't be beholden to a static set of data from environments             different than your exact setup. 
+    
+    If your needs change, you simply schedule to take photos, upload them, add more data tags or other simple process to give the system more             context about your setup and keep it calibrated.
+    
+    
+    Eventually a fancy user experience will be available to upload photos and plug in other information for machine learning. 
+    This is a massive project so please be patient.
+    
+    
+What is this small slice of code logic?
+
+    The main goal here is to take a good number of photos over a period of time, fully hands off. 
+    You can schedule it to take 1000 photos in a minute, or schedule it to take 4-5 photos at various times everyday for 30 or more days. 
+    The schedule for photos will vary depending on what the user needs are which future modules you wish to use etc. 
+    
+    In the later versions, scheduling will be handled through a sleek web browser based user interface. 
+    You won't need to be done manually through cron or another scheduler, the scheduler will be built in.
+
+What does this initial portion of code do under the hood?
+
+    This is a very simple photo capture tool locic to be used with a small device and a USB web cam.
+    That's all this set of code can do right now.
 
 What's next in the future of this code base?
 
-    meta data tagging pipelines for captured photo sets 
-    Cleansing and sorting algorithms 
-    Feeding cleansed and tagged photo sets to various training models or used for more purposes and use cases.
-    Hugging face tie ins and other functions as I test and vet them.
+   Designing and coding around making this logic easier to deploy and install for others
+   Creating a digital 'receiver' to tie in with the larger view and 'apps' described above.
+   Larger tie ins with other systems such as FarmOS.
 
+Not going to lie, these next few updates are not going to be flashy or much to play with or use unless you're interested in the install process. 
+However these updates are an extremely important building block for the rest of the vision described above to work properly. 
+ 
+   
 Who I'm trying to gather as an audience?
 
     I'm intentionally writing this readme and the code comments for learning purposes and minimizing tech jargon. 
