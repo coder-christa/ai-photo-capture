@@ -69,10 +69,11 @@ Who I'm trying to gather as an audience?
     I'm intentionally writing this readme and the code comments for learning purposes and minimizing tech jargon. 
     I'm assuming a low level of baseline tech knowledge and experterise. 
     Although that is a bold assumption posting this on git. 
-    If you found this repo through github you probably don't need a painful level of handholding, but this readme isn't for you but you probably      aren't reading this and skipped to the technical specs and code.
+    If you found this repo through github you probably don't need a painful level of handholding, 
+    but this readme isn't for you but you probably aren't reading section.
 
     This overall project is for the fellow DIYers/gardeners that want to claw back some of their labor.
-    The people that want personalized AI gardening tools without a large sticker price 
+    This is for people that want personalized AI gardening tools without a large sticker price 
     and a pathway to make it customizable to their setup and plants.
 
 What drives me to do all this?
