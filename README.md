@@ -21,12 +21,18 @@ What is the overall large picture?
     composting management
     and many more ideas I have actively been thinking about. 
     
-    Once this code base is further along, you won't need to wait for updates, you won't be beholden to a static set of data from environments             different than your exact setup. 
+    Once this code base is further along, you won't need to wait for updates, 
+    you won't be beholden to a static set of data from environments 
+    different than your exact setup. 
     
-    If your needs change, you simply schedule to take photos, upload them, add more data tags or other simple process to give the system more             context about your setup and keep it calibrated.
+    If your needs change, you simply schedule to take photos, 
+    upload them, add more data tags or other simple processes
+    to give the system more context about your setup and keep it calibrated.
     
     
-    Eventually a fancy user experience will be available to upload photos and plug in other information for machine learning. 
+    Eventually a fancy user experience will be available to upload photos
+    and plug in other information for machine learning. 
+    
     This is a massive project so please be patient.
     
     
@@ -34,10 +40,12 @@ What is this small slice of code logic?
 
     The main goal here is to take a good number of photos over a period of time, fully hands off. 
     You can schedule it to take 1000 photos in a minute, or schedule it to take 4-5 photos at various times everyday for 30 or more days. 
-    The schedule for photos will vary depending on what the user needs are which future modules you wish to use etc. 
+    The schedule for photos will vary depending on what the user needs are which future modules you wish to use. 
     
     In the later versions, scheduling will be handled through a sleek web browser based user interface. 
-    You won't need to be done manually through cron or another scheduler, the scheduler will be built in.
+    
+    You won't need to schedule manually through cron or another scheduler, 
+    the scheduler will be built in. I didn't include scheduling instructions to limit harm.
 
 What does this initial portion of code do under the hood?
 
