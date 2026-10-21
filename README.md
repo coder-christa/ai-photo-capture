@@ -19,7 +19,11 @@ What is the overall large picture?
     pest management alerts when pests are detected, 
     pest and disease management and mitigation, 
     composting management
-    and many more ideas I have actively been thinking about. 
+    and many more ideas I am actively been thinking about. 
+
+    Some of these functions are already in operation for personal use, 
+    they need expanded to work for people cleanly 
+    and retrofitted for this larger project.
     
     Once this code base is further along, you won't need to wait for updates, 
     you won't be beholden to a static set of data from environments 
