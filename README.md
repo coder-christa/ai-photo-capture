@@ -26,8 +26,8 @@ What is the overall large picture?
     different than your exact setup. 
     
     If your needs change, you simply schedule to take photos, 
-    upload them, add more data tags or other simple processes
-    to give the system more context about your setup and keep it calibrated.
+    upload them, add more data tags or other simple processes.
+    This is the foundation to give the system more context about your exact setup. 
     
     
     Eventually a fancy user experience will be available to upload photos
