@@ -39,6 +39,9 @@ What is the overall large picture?
 What is this small slice of code logic?
 
     The main goal here is to take a good number of photos over a period of time, fully hands off. 
+    This is a very simple photo capture tool locic to be used with a small device and a USB web cam.
+    That's all this set of code can do right now.
+
     You can schedule it to take 1000 photos in a minute, or schedule it to take 4-5 photos at various times everyday for 30 or more days. 
     The schedule for photos will vary depending on what the user needs are which future modules you wish to use. 
     
@@ -48,10 +51,9 @@ What is this small slice of code logic?
     the scheduler will be built in. I didn't include scheduling instructions to limit harm.
 
 What does this initial portion of code do under the hood?
-
-    This is a very simple photo capture tool locic to be used with a small device and a USB web cam.
-    That's all this set of code can do right now.
-
+    This handles photo capture logic, future proofs the logic to take a massive number of photos. 
+    The amount of photos taken efficiently will still depend on SD card/USB stick size, and how efficient your hardware is. 
+ 
 What's next in the future of this code base?
 
    Designing and coding around making this logic easier to deploy and install for others
@@ -114,7 +116,7 @@ Do not knowingly use this for any malicious purposes, I am not liable for such a
 This is intented to be used on local personal devices for plant identiicaiton and learning purposes. I
 ultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole.
 
-Update: For safety, blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. Not perfect, but should minimize any unintentional harm. This was put in a separate class, more safety constraints can be added as needed. Still don't be an asshole.
+Update: For safety, blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. Not perfect some things may get through, but should minimize any unintentional harm. This was put in a separate class, more safety constraints can be added as needed. Still don't be an asshole. 
 
 Technical specs:
 
