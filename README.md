@@ -121,6 +121,9 @@ AI use in this code base:
     I cleaned up some install configs, docker container errors and other problems with the original setup process. 
     Feel free to check out the code and readme updates for more information.
 
+    I likely won't be doing more public updates to the local chatbot unless specifically requested, 
+    for now this suits my needs to fully focus on this project.
+
     I'm not affiliated with the original developer and have never worked with them directly.
     The code base is solid enough for me to use and update for my needs.
 
