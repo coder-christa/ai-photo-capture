@@ -100,16 +100,29 @@ AI use in this code base:
     They probably go into more detail than needed. 
     This is partially so I keep track of things and it helps me if I take longer breaks. 
     I'm also trying to handhold people if they're interested in what the code is doing and why.
+    For this code base not every situation or device will be throughly tested and there will likely be some amount of friction and troubleshooting        for anyone else using this.
 
-    The code was AI assisted to a degree through a local Jan chatbot.
+    **Updates to AI chatbot used for code assistance**
+
+    This code was originally assisted by Jan. 
+    After a few updates, Jan no longer serves my needs. 
+    Sadly it now auto executes code and commands without explicit control.
+    For general safety I cannot use it anymore.
     
-    For more info on Jan: https://www.jan.ai/ 
+    In response, I have started to maintain my own chatbot as a side project:
    
-    When using Jan, human logic is intentionally put into the design choices. 
-    I don't blindly copy and paste anything without fully thinking it through before testing and publishing publicly. 
-    I run everything myself locally and try to run on multiple devices and OS patches when possible. 
+    https://github.com/coder-christa/local-ai-powered-chatbot
+
+    For transparency, this is the original developer's repo:
     
-    Not every situation or device will be throughly tested and there will likely be some amount of friction and troubleshooting for anyone else       using this
+    https://github.com/jerryiriri/local-ai-powered-chatbot
+
+    What's the difference between the two repos?
+    I cleaned up some install configs, docker container errors and other problems with the original setup process. 
+    Feel free to check out the code and readme updates for more information.
+
+    I'm not affiliated with the original developer and have never worked with them directly.
+    The code base is solid enough for me to use and update for my needs.
 
 Warnings and misuse:
 
