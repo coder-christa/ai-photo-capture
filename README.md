@@ -129,15 +129,21 @@ AI use in this code base:
 
 Warnings and misuse:
 
-Please be careful and mindful of where a camera using this code is pointed. There are no warning shots or warnings displayed due to the intended use case. It is easily automated with the intention to take a massive number of photos for AI training purposes and capturing long periods of plant growth.
+Please be careful and mindful of where a camera is pointed. There are no warning shots or warnings displayed due to the intended use case. It is easily automated with the intention to take a massive number of photos for AI training and capturing long periods of plant growth.
     
-Unflattering background objects can be captured unintentionally if not handled appropriately. Be mindful to unplug the camera or cover any webcam just in case and/or check the logs and find additional information if you aren't sure. Don't publish/fork this code base with your own photos publicly in the photos folder unless you are sure they are clean.
+Unflattering or harmful background objects can be captured unintentionally if not handled appropriately. 
+Be mindful to unplug the camera or cover any webcam just in case and/or check the logs and find additional information if you aren't sure. 
+Don't publish/fork this code base with your own photos publicly in the photos folder unless you are sure they are clean.
 
 Do not knowingly use this for any malicious purposes, I am not liable for such actions. 
-This is intented to be used on local personal devices for plant identiicaiton and learning purposes. I
-ultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole.
+This is intented to be used on local personal devices for plant identiicaiton and learning purposes. 
+Iultimately have no control over people using it in unintented ways, but please be a good person and don't be an intentional asshole.
 
-Update: For safety, blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. Not perfect some things may get through, but should minimize any unintentional harm. This was put in a separate class, more safety constraints can be added as needed. Still don't be an asshole. 
+Update: For safety, blur functionality was added to prevent humans in the photos. It will blur them out automatically with a lightweight AI algorithm before saving photos. 
+It can be adjusted for different cameras, a base 3% is used to expand or contract depending on the camera's resolution. 
+This is not perfect some things may get through, but it should minimize any unintentional harm. 
+This was put in a separate class, more safety constraints can be added as needed. 
+Still don't be an asshole. 
 
 Technical specs:
 
@@ -157,10 +163,9 @@ How do you download/install this?
     4) pip install opencv-python
 
 
-
 To take a one off photo:
 
-Switch to the directory where the .py files of this project were downloaded.
+Switch to the directory where the .py files of this project was downloaded.
 
 To take a one off photo run this on your CLI(command line interface/black box):
 
